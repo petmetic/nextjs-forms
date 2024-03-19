@@ -1,6 +1,10 @@
 import Image from "next/image";
+import { RegistrationForm } from "@/app/RegistrationForm";
 
 export default function Home() {
-  return <div></div>;
+  return (
+    <div className="mx-auto max-w-xl">
+      <RegistrationForm />
+    </div>
+  );
 }
-
